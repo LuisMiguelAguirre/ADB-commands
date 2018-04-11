@@ -15,5 +15,9 @@ adb root
 adb remount
 adb install -r -d /Users/user/AndroidStudioProjects/project/app/build/outputs/apk/
 
+touch .bash_profile
+open -e .bash_profile
 export PATH="/Users/zzw9nj/Library/Android/sdk/platform-tools/":$PATH
 echo $PATH
+source ~/.bash_profile
+adb version
