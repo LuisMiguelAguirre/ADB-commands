@@ -5,3 +5,12 @@ adb shell
 adb logcat
 adb pull
 adb push
+/Users/zzw9nj/Library/Android/sdk/platform-tools/adb shell pm clear package
+adb reboot
+adb shell pm clear package
+adb shell pm clear package
+adb connect 192.168.5.1
+adb devices
+adb root
+adb remount
+adb install -r -d /Users/user/AndroidStudioProjects/project/app/build/outputs/apk/
