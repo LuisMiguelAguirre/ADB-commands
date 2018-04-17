@@ -14,6 +14,8 @@ adb devices
 adb root
 adb remount
 adb install -r -d /Users/user/AndroidStudioProjects/project/app/build/outputs/apk/
+adb push /Users/zzw9nj/AndroidStudioProjects/nameproject/app/build/outputs/apk/name.apk /data/local/tmp/packagename
+$ adb shell pm install -t -r "/data/local/tmp/packagename"
 
 touch .bash_profile
 open -e .bash_profile
