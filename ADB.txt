@@ -18,6 +18,8 @@ adb push /Users/zzw9nj/AndroidStudioProjects/nameproject/app/build/outputs/apk/n
 adb shell pm install -t -r "/data/local/tmp/packagename"
 adb shell am force-stop package
 adb shell am kill package
+adb shell input keyevent 4
+
 
 
 //ONLY FOR THE ENVIRONMENT GLOBAL VARIABLE
