@@ -25,6 +25,10 @@ adb shell am force-stop package
 adb shell am kill package
 adb shell input keyevent 4
 
+adb shell ps | grep mybrand;
+adb logcat | grep 3610
+
+
 
 
 //ONLY FOR THE ENVIRONMENT GLOBAL VARIABLE
